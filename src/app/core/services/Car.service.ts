@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs/internal/Observable';
-import { Card } from '../models/Car';
+import { Car } from '../models/Car';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +12,7 @@ export class CarService {
 
   constructor(private http: HttpClient) { }
 
-  getAll(): Observable<Card[]> {
-    return this.http.get<Card[]>(`${this.apiUrl}/202212_MISW4104_Grupo1.json`);
+  getAll(): Observable<Car[]> {
+    return this.http.get<Car[]>(`${this.apiUrl}/202212_MISW4104_Grupo1.json`);
   }
 }

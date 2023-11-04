@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Línea</th>
+      <th scope="col">Modelo</th>
+    </tr>
+  </thead>
+  <tbody class="table-group-divider">
+    <tr *ngFor="let car of cars; index as i">
+      <th scope="row">{{ i + 1 }}</th>
+      <td>{{ car?.marca }}</td>
+      <td>{{ car?.linea }}</td>
+      <td>{{ car?.modelo }}</td>
+    </tr>
+  </tbody>
+</table>
