@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 import { CarModule } from './car/car.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     BrowserModule,
-    HttpClientModule,
     CarModule,
+    HttpClientModule,
+  ],
+  declarations: [
+    AppComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

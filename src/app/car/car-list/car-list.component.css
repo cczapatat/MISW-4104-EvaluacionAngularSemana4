@@ -5,3 +5,13 @@
   --bs-table-color: white;
   color: white;
 }
+
+.td-main {
+  --bs-table-bg: white;
+  background: white;
+}
+
+.td-second {
+  --bs-table-bg: floralwhite;
+  background: floralwhite;
+}

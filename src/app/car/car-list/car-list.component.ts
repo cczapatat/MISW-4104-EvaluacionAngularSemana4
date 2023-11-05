@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Car } from 'src/app/core/models/Car';
-import { CarService } from 'src/app/core/services/car.service';
+import { Car } from '../../core/models/Car';
+import { CarService } from '../../core/services/car.service';
 
 @Component({
-  selector: 'car-list',
+  selector: 'app-car-list',
   templateUrl: './car-list.component.html',
   styleUrls: ['./car-list.component.css']
 })
