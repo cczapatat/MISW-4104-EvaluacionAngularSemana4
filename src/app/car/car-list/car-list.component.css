@@ -1,0 +1,7 @@
+.table-header {
+  --bs-table-bg: #323a42;
+  background: #323a42;;
+  background-color: #323a42;
+  --bs-table-color: white;
+  color: white;
+}
